@@ -186,6 +186,7 @@ GIT_BRANCH = "maint"
 
 SRC_URI = "git://github.com/gnuradio/gnuradio.git;branch=${GIT_BRANCH};protocol=https \
            file://0001-runtime-add-backpressure-to-message-ports.patch \
+           file://0001-pthread-fix-for-Picoflexor-compile-of-GNURadio.patch \
           "
 
 S="${WORKDIR}/git"
